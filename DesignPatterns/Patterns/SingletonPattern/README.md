@@ -1,6 +1,6 @@
 ﻿# Singleton pattern
 
-Define a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it
+Is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system. 
 
 ## When to use the Singleton Pattern
 
