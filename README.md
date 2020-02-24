@@ -8,3 +8,4 @@ These are my notes as I go through the course of [Derek Banas](https://www.youtu
 
 * [Strategy Pattern](https://github.com/Catamo/design-patterns-notes/tree/master/DesignPatterns/Patterns/StrategyPattern)
 * [Observer Pattern](https://github.com/Catamo/design-patterns-notes/tree/master/DesignPatterns/Patterns/ObserverPattern)
+* [Singleton Pattern](https://github.com/Catamo/design-patterns-notes/tree/master/DesignPatterns/Patterns/SingletonPattern)
