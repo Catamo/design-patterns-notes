@@ -5,7 +5,7 @@ using DesignPatterns.Basics.Inheritance;
 using DesignPatterns.Patterns.StrategyPattern;
 using NUnit.Framework;
 
-namespace DesignPatterns.Test.Basics
+namespace DesignPatterns.Test.Patterns
 {
     public class StrategyPatternTests
     {
@@ -18,6 +18,7 @@ namespace DesignPatterns.Test.Basics
             Assert.AreEqual(sparky.TryToFly(), "I can't fly");
             Assert.AreEqual(tweety.TryToFly(), "Flying High");
         }
+
         [Test]
         public void Animals_ChangeFlyingType_IsCorrect()
         {

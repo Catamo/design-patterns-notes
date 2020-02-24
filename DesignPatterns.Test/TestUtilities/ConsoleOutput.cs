@@ -18,10 +18,11 @@ namespace DesignPatterns.Test.TestUtilities
             Console.SetOut(stringWriter);
         }
 
-        public string GetOuput()
+        //Regex code based on
+        //https://stackoverflow.com/questions/4140723/how-to-remove-new-line-characters-from-a-string
+        public string GetOuput(bool removeNewSpaces = true)
         {
-            //https://stackoverflow.com/questions/4140723/how-to-remove-new-line-characters-from-a-string
-            return Regex.Replace(stringWriter.ToString(), @"\t|\n|\r", "");
+            return Regex.Replace(stringWriter.ToString(), removeNewSpaces ? @"\t|\n|\r" : @"\t|\r", "");
         }
 
         public void Dispose()
